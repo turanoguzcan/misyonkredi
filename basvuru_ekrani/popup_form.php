@@ -37,12 +37,12 @@
                             <div class="row-group">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="tam_ad_input" class="form-label">Adiniz Soyadiniz</label>
+                                        <label for="tam_ad_input" class="form-label">Ad Soyad*</label>
                                         <input type="text" class="form-control" id="tam_ad_input">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="sektor_input" class="form-label">Sektor</label>
-                                        <select class="form-select" id="sektor_input">
+                                        <label for="meslek_input" class="form-label">Mesleğiniz</label>
+                                        <select class="form-select" id="meslek_input">
                                             <option selected>Open this select menu</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
@@ -52,12 +52,12 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="tc_no_input" class="form-label">TC NO</label>
+                                        <label for="tc_no_input" class="form-label">Kimlik Numarası*</label>
                                         <input type="number" class="form-control" id="tc_no_input">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="sehir_input" class="form-label">Sehir</label>
-                                        <select class="form-select" id="sehir_input">
+                                        <label for="il_input" class="form-label">İl*</label>
+                                        <select class="form-select" id="il_input">
                                             <option selected>Open this select menu</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
@@ -71,7 +71,7 @@
                                         <input type="email" class="form-control" id="email_input">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="tel_no_input" class="form-label">Telefon Numaraniz</label>
+                                        <label for="tel_no_input" class="form-label">Telefon Numarası*</label>
                                         <input type="number" class="form-control" id="tel_no_input">
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@
                                         <input type="number" class="form-control" id="talep_edilen_tutar_input">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="kredi_vade_input" class="form-label">Vade Seciniz</label>
+                                        <label for="kredi_vade_input" class="form-label">Vade Seçiniz</label>
                                         <select class="form-select" id="kredi_vade_input">
                                             <option selected>Open this select menu</option>
                                             <option value="1">One</option>
