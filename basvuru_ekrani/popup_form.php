@@ -12,7 +12,13 @@
   </head>
   <body>
 
-
+    <h1>
+        <?php
+            if(isset($_POST)){
+                print_r($_POST["path"]);
+            }
+        ?>
+    </h1>
 
     <button class="basvuru-popup" style="transform: rotate(90deg);" data-bs-toggle="modal" data-bs-target="#basvuru-popup">Basvuru Yap</button>
 
@@ -26,8 +32,8 @@
                     <h1>Basvuru Formu</h1>
                     <div class="form-container">
             
-                        <form>
-                            <input type="hidden" value="<?php echo $_SERVER['PHP_SELF'] ?>">
+                        <form method="POST">
+                            <input type="hidden" name="path" value="<?php echo $_SERVER['PHP_SELF'] ?>">
                             <div class="row-group">
                                 <div class="row">
                                     <div class="col-md-6">
