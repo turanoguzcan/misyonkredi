@@ -27,6 +27,7 @@
                     <div class="form-container">
             
                         <form>
+                            <input type="hidden" value="<?php echo $_SERVER['PHP_SELF'] ?>">
                             <div class="row-group">
                                 <div class="row">
                                     <div class="col-md-6">
