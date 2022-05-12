@@ -54,7 +54,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label for="tc_no_input" class="form-label">Kimlik Numarası*</label>
-                                        <input type="number" class="form-control" id="tc_no_input" name="tc_no_input">
+                                        <input type="number" class="form-control" id="tc_no_input" name="tc_no_input" min="1" max="5">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="il_input" class="form-label">İl*</label>
