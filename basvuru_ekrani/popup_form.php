@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,9 +15,9 @@
 
     <h1>
         <?php
-            if(isset($_POST)){
+            /*if(isset($_POST)){
                 print_r($_POST["path"]);
-            }
+            }*/
         ?>
     </h1>
 
@@ -38,11 +39,11 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label for="tam_ad_input" class="form-label">Ad Soyad*</label>
-                                        <input type="text" class="form-control" id="tam_ad_input">
+                                        <input type="text" class="form-control" id="tam_ad_input" name="tam_ad_input">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="meslek_input" class="form-label">Mesleğiniz</label>
-                                        <select class="form-select" id="meslek_input">
+                                        <select class="form-select" id="meslek_input" name="meslek_input">
                                             <option selected>Open this select menu</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
@@ -53,11 +54,11 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label for="tc_no_input" class="form-label">Kimlik Numarası*</label>
-                                        <input type="number" class="form-control" id="tc_no_input">
+                                        <input type="number" class="form-control" id="tc_no_input" name="tc_no_input">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="il_input" class="form-label">İl*</label>
-                                        <select class="form-select" id="il_input">
+                                        <select class="form-select" id="il_input" name="il_input">
                                             <option selected>Open this select menu</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
@@ -68,21 +69,21 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label for="email_input" class="form-label">E-Posta Adresiniz</label>
-                                        <input type="email" class="form-control" id="email_input">
+                                        <input type="email" class="form-control" id="email_input" name="email_input">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="tel_no_input" class="form-label">Telefon Numarası*</label>
-                                        <input type="number" class="form-control" id="tel_no_input">
+                                        <input type="number" class="form-control" id="tel_no_input" name="tel_no_input">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label for="talep_edilen_tutar_input" class="form-label">Talep Edilen Tutar</label>
-                                        <input type="number" class="form-control" id="talep_edilen_tutar_input">
+                                        <input type="number" class="form-control" id="talep_edilen_tutar_input" name="talep_edilen_tutar_input">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="kredi_vade_input" class="form-label">Vade Seçiniz</label>
-                                        <select class="form-select" id="kredi_vade_input">
+                                        <select class="form-select" id="kredi_vade_input" name="kredi_vade_input">
                                             <option selected>Open this select menu</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
@@ -93,7 +94,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <label for="musteri_notu_input" class="form-label">Iletmek istediginiz notunuz</label>
-                                        <textarea class="form-control" id="musteri_notu_input" rows="4"></textarea>
+                                        <textarea class="form-control" id="musteri_notu_input" name="musteri_notu_input" rows="4"></textarea>
                                     </div>
                                    
                                 </div>
@@ -103,7 +104,7 @@
                                 <div class="col-md-6">
                                     <div class="gizlilik-group">
                                         <div class="mb-3 form-check">
-                                            <input type="checkbox" class="form-check-input" id="gizlilik_check">
+                                            <input type="checkbox" class="form-check-input" id="gizlilik_check" name="gizlilik_check">
                                             <label class="form-check-label" for="gizlilik_check" >Bu formu doldurarak Gizlilik politikası koşullarını kabul ettiğimi beyan ederim.</label>
                                         </div>
                                         <!-- Modal   data-bs-toggle="modal" data-bs-target="#gizlilikModal"
@@ -126,7 +127,7 @@
                                     </div>
                                     <div class="kvkk-group">
                                         <div class="mb-3 form-check">
-                                            <input type="checkbox" class="form-check-input" id="kvkk_check">
+                                            <input type="checkbox" class="form-check-input" id="kvkk_check" name="kvkk_check">
                                             <label class="form-check-label" for="kvkk_check" >Bu formu doldurarak KVKK koşullarını kabul ettiğimi beyan ederim.</label>
                                         </div>
                                         <!-- Modal   data-bs-toggle="modal" data-bs-target="#kvkkModal"
